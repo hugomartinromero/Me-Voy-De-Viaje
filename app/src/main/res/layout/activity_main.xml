@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Destino:" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbParis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="París" />
+
+        <RadioButton
+            android:id="@+id/rbLondres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Londres" />
+
+        <RadioButton
+            android:id="@+id/rbRoma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roma" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transporte:" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbCoche"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Coche" />
+
+        <RadioButton
+            android:id="@+id/rbTren"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tren" />
+
+        <RadioButton
+            android:id="@+id/rbAvion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Avión" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INFORMACIÓN" />
+</LinearLayout>
