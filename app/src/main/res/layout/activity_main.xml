@@ -12,9 +12,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Destino:" />
+        android:text="@string/destino" />
 
     <RadioGroup
+        android:id="@+id/rgPaises"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -23,28 +24,29 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:text="París" />
+            android:text="@string/paris" />
 
         <RadioButton
             android:id="@+id/rbLondres"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Londres" />
+            android:text="@string/londres" />
 
         <RadioButton
             android:id="@+id/rbRoma"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Roma" />
+            android:text="@string/roma" />
 
     </RadioGroup>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Transporte:" />
+        android:text="@string/transporte" />
 
     <RadioGroup
+        android:id="@+id/rgTransportes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -53,24 +55,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:text="Coche" />
+            android:text="@string/coche" />
 
         <RadioButton
             android:id="@+id/rbTren"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Tren" />
+            android:text="@string/tren" />
 
         <RadioButton
             android:id="@+id/rbAvion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Avión" />
+            android:text="@string/avion" />
     </RadioGroup>
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="INFORMACIÓN" />
+        android:text="@string/informacion" />
 </LinearLayout>

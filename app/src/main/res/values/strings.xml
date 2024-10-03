@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Me voy de viaje</string>
+    <string name="destino">Destino:</string>
+    <string name="paris">París</string>
+    <string name="londres">Londres</string>
+    <string name="roma">Roma</string>
+    <string name="transporte">Transporte:</string>
+    <string name="coche">Coche</string>
+    <string name="tren">Tren</string>
+    <string name="avion">Avión</string>
+    <string name="informacion">INFORMACIÓN</string>
 </resources>
